@@ -178,8 +178,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         
-        //XML
-        Orchestra\Parser\XmlServiceProvider::class,
+     
+       
         //Custom Package for reading xml files
         Eonxml\Xmldigest\XmlDigestServiceProvider::class,
     ],
@@ -229,8 +229,8 @@ return [
         'Storage' => Illuminate\Support\Facades\Storage::class,
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
-        'View' => Illuminate\Support\Facades\View::class,
-        'XmlParser' => Orchestra\Parser\Xml\Facade::class,
+        'View' => Illuminate\Support\Facades\View::class
+       
     ],
 
 ];
