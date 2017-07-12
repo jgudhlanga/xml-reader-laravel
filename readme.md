@@ -18,8 +18,11 @@ Check the package composer.json and as of now it relies on the Laravel framework
 
 #USAGE
 1. clone the repo to your server
+
 2. create a database with a name matching the .env settings else name it eon_xml
-3. On CLI cd to the project root and run the artisan command 'php artisan vendor:publish' to make sure that the migrations will be successfull
+3. On CLI cd to the project root and run the artisan command 
+ run composer update to install dependencies
+'php artisan vendor:publish' to make sure that the migrations will be successfull
 4. run migrations 'php artisan migrate' and the table required for the package will be created
 5. Once all is done navigate to the home page of your app
 6. Now click the XML Parser Reader link on the Top left of the nav bar
