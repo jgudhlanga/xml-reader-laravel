@@ -1,0 +1,11 @@
+{
+    "name": "eonxml/xmldigest",
+    "description": "The package will go a long way in reading and creating xml files",
+    "authors": [
+        {
+            "name": "James Gudhlanga",
+            "email": "jimmyneds@gmail.com"
+        }
+    ],
+    "require": {}
+}
